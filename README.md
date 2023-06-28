@@ -4,10 +4,13 @@ Website Klinik yang dibuat dengan senang hati...
 
 ## Tahapan Pembuatan
 
-nama kelompok
-rima
-fauzhan
-arya
-sidik
-azar
-irgi
+Nama Kelompok:
+1. Fauzhan
+2. Sidiq
+3. Arya
+4. Rima
+5. Azar
+6. Irgi
+
+## Link Design
+Fauzhan: https://www.figma.com/file/ScRG1cRxpTuxvnHAt3KDQB/Poster---2?type=design&node-id=0%3A1&mode=design&t=qm0a0HahbnCgukwP-1
