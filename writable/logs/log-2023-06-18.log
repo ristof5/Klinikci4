@@ -1,0 +1,234 @@
+INFO - 2023-06-18 03:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 03:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 03:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 03:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:47:18 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 35.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:48:06 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 35.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:50:05 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 36.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:52:04 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 35.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:53:44 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 35.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:55:09 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 35.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 03:56:02 --> Invalid argument supplied for foreach()
+in APPPATH\Views\customer\pendaftaran\list.php on line 35.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 03:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 03:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 03:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 03:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 04:05:36 --> Undefined variable: d
+in APPPATH\Views\admin\customer\list.php on line 56.
+ 1 APPPATH\Views\admin\customer\list.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\admin\\customer\\list.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\admin\\customer\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/admin/customer/list', [], true)
+ 5 APPPATH\Controllers\UserController.php(30): view('/admin/customer/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->customer()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 04:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 04:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 04:17:43 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\UserController.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\UserController->store()
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-18 04:17:43 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$ZHuedZVgyag7e9M6trF1Y.f87YGYdJRZ0KkgiOqm3aSUvZ/eJL4C.\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$ZHuedZVgyag7e9M6trF1Y.f87YGYdJRZ0KkgiOqm3aSUvZ/eJL4C.\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$ZHuedZVgyag7e9M6trF1Y.f87YGYdJRZ0KkgiOqm3aSUvZ/eJL4C.\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (:nama_user:, :username:, :password:, :email:, :nohp:, :tgl_lahir:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 10:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 10:50:14 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\UserController.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\UserController->store()
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-18 10:50:14 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$IRzltq0gu77SiJorp.6Age2iBOdUD8hC73kvId8xlCauQl7GmpIJy\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$IRzltq0gu77SiJorp.6Age2iBOdUD8hC73kvId8xlCauQl7GmpIJy\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$IRzltq0gu77SiJorp.6Age2iBOdUD8hC73kvId8xlCauQl7GmpIJy\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (:nama_user:, :username:, :password:, :email:, :nohp:, :tgl_lahir:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-18 10:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 10:51:24 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\UserController.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\UserController->store()
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-18 10:51:24 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$c53yCYsXHieHIjUhz4Z2M.5Ytmi598TpHUTGpLy9kHnInFG496zFG\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$c53yCYsXHieHIjUhz4Z2M.5Ytmi598TpHUTGpLy9kHnInFG496zFG\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (NULL, NULL, \'$2y$10$c53yCYsXHieHIjUhz4Z2M.5Ytmi598TpHUTGpLy9kHnInFG496zFG\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_user`, `username`, `password`, `email`, `nohp`, `tgl_lahir`, `role`) VALUES (:nama_user:, :username:, :password:, :email:, :nohp:, :tgl_lahir:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')

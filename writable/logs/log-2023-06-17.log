@@ -1,0 +1,338 @@
+INFO - 2023-06-17 00:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 06:46:38 --> Undefined variable: d
+in APPPATH\Views\admin\customer\list.php on line 56.
+ 1 APPPATH\Views\admin\customer\list.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\admin\\customer\\list.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\admin\\customer\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/admin/customer/list', [], true)
+ 5 APPPATH\Controllers\UserController.php(30): view('/admin/customer/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->customer()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 06:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-17 07:25:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id...' at line 1 in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.* `...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.* `...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.* `...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.* `...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\app\Models\Pendaftaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\PendaftaranController.php(15): App\Models\Pendaftaran->getAllData()
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-17 07:25:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`', [], false)
+ 5 APPPATH\Models\Pendaftaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PendaftaranController.php(15): App\Models\Pendaftaran->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 07:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 07:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-17 07:27:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id...' at line 1 in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.* `...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.* `...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.* `...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.* `...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\app\Models\Pendaftaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\PendaftaranController.php(15): App\Models\Pendaftaran->getAllData()
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-17 07:27:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.* `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TU`.`id_customer`', [], false)
+ 5 APPPATH\Models\Pendaftaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PendaftaranController.php(15): App\Models\Pendaftaran->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 07:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-17 07:36:12 --> mysqli_sql_exception: Table 'db_klinik.tbl_user' doesn't exist in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.*, ...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.*, ...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.*, ...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.*, ...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\app\Models\Pendaftaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\PendaftaranController.php(15): App\Models\Pendaftaran->getAllData()
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-17 07:36:12 --> Table 'db_klinik.tbl_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TP`.`id_customer` = `TU`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TP`.`id_customer` = `TU`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TP`.`id_customer` = `TU`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TP`.`id_customer` = `TU`.`id`', [], false)
+ 5 APPPATH\Models\Pendaftaran.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PendaftaranController.php(15): App\Models\Pendaftaran->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 07:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-17 11:49:22 --> mysqli_sql_exception: Table 'db_klinik.tbl_user' doesn't exist in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.*, ...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.*, ...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.*, ...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.*, ...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\PendaftaranController.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-17 11:49:22 --> Table 'db_klinik.tbl_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`', [], false)
+ 5 APPPATH\Controllers\PendaftaranController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 11:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 11:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-17 12:26:37 --> mysqli_sql_exception: Table 'db_klinik.tbl_user' doesn't exist in C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.*, ...', 0)
+#1 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.*, ...')
+#2 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.*, ...')
+#3 C:\xampp\htdocs\databaseKlinik\klinik2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.*, ...', Array, false)
+#4 C:\xampp\htdocs\databaseKlinik\klinik2\app\Controllers\PendaftaranController.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+#6 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+#7 C:\xampp\htdocs\databaseKlinik\klinik2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\databaseKlinik\klinik2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\databaseKlinik\klinik2\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-17 12:26:37 --> Table 'db_klinik.tbl_user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `TP`.*, `TU`.`nama_user`
+FROM `tbl_pendaftaran` `TP`
+JOIN `tbl_user` `TU` ON `TU`.`id` = `TP`.`id_customer`', [], false)
+ 5 APPPATH\Controllers\PendaftaranController.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 12:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 12:30:21 --> Undefined property: stdClass::$pendaftaran
+in APPPATH\Views\customer\pendaftaran\list.php on line 39.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$pendaftaran', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(27): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 12:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 12:46:05 --> Undefined property: stdClass::$Detail
+in APPPATH\Views\customer\pendaftaran\list.php on line 59.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Detail', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 59, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 12:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 12:46:17 --> Undefined property: stdClass::$detail
+in APPPATH\Views\customer\pendaftaran\list.php on line 59.
+ 1 APPPATH\Views\customer\pendaftaran\list.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$detail', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php', 59, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\customer\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('customer/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(19): view('customer/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-17 12:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 12:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 13:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

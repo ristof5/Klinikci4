@@ -1,0 +1,288 @@
+INFO - 2023-06-24 00:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 00:02:12 --> Undefined index: nama_user
+in APPPATH\Controllers\PdfController.php on line 51.
+ 1 APPPATH\Controllers\PdfController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_user', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Controllers\\PdfController.php', 51, [...])
+ 2 APPPATH\Controllers\PdfController.php(22): App\Controllers\PdfController->generateHtml([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 00:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 00:04:28 --> Undefined index: nama_user
+in APPPATH\Controllers\PdfController.php on line 51.
+ 1 APPPATH\Controllers\PdfController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_user', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Controllers\\PdfController.php', 51, [...])
+ 2 APPPATH\Controllers\PdfController.php(22): App\Controllers\PdfController->generateHtml([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 00:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 00:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 01:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 01:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 01:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 01:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 01:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:05:47 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:06:07 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:07:39 --> Trying to get property 'nama_user' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 41.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_user\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:13:29 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:20:17 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:21:03 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:22:25 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\PdfController.php on line 50.
+ 1 APPPATH\Controllers\PdfController.php(22): App\Controllers\PdfController->generateHtml([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:24:08 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:26:44 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:27:38 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:27:59 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:28:01 --> Trying to get property 'no_pendaftaran' of non-object
+in APPPATH\Views\kasir\pendaftaran\list.php on line 40.
+ 1 APPPATH\Views\kasir\pendaftaran\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'no_pendaftaran\' of non-object', 'C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Views\\kasir\\pendaftaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kasir/pendaftaran/list', [], true)
+ 5 APPPATH\Controllers\PendaftaranController.php(30): view('kasir/pendaftaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendaftaranController->kasir()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendaftaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:29:45 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\PdfController.php on line 50.
+ 1 APPPATH\Controllers\PdfController.php(22): App\Controllers\PdfController->generateHtml([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:30:22 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\PdfController.php on line 51.
+ 1 APPPATH\Controllers\PdfController.php(22): App\Controllers\PdfController->generateHtml([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:30:34 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\PdfController.php on line 52.
+ 1 APPPATH\Controllers\PdfController.php(22): App\Controllers\PdfController->generateHtml([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:30:44 --> syntax error, unexpected '$html' (T_VARIABLE), expecting identifier (T_STRING)
+in APPPATH\Controllers\PdfController.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\app\\Controllers\\PdfController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PdfController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PdfController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\PdfController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\PdfController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 02:33:48 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\PdfController.php on line 43.
+ 1 APPPATH\Controllers\PdfController.php(18): App\Controllers\PdfController->generateHtml([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\databaseKlinik\\klinik2\\public\\index.php')
+INFO - 2023-06-24 02:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 02:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
