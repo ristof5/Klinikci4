@@ -1,6 +1,6 @@
 # Klinik with CodeIgniter
 
-Website Klinik yang dibuat dengan senang hati...
+Website Klinik yang dibuat untuk memenuhi tugas akhir mata kuliah pemrograman web 2
 
 ## Tahapan Pembuatan
 
