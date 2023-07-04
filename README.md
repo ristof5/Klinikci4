@@ -48,6 +48,9 @@ Membuat view atau tampilan web dimata pengguna.sesuaikan saja dengan repository
 Routes merupakan rute yang digunakan setiap fungsi.sesuaikan saja dengan repository
 ![routes](https://github.com/ristof5/Klinikci4/assets/116700466/51f0f5a9-6fd8-421a-90e4-090d3e6f14e3)
 
+### Tampilan utama 
+![login admin](https://github.com/ristof5/Klinikci4/assets/116700466/91cd1855-1d8d-49f2-b269-4d69d13ba959)
+
 
 
 
