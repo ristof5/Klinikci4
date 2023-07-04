@@ -17,4 +17,4 @@ Nama Kelompok:
 
 
 ## Link Design
-Fauzhan: https://www.figma.com/file/ScRG1cRxpTuxvnHAt3KDQB/Poster---2?type=design&node-id=0%3A1&mode=design&t=qm0a0HahbnCgukwP-1
+https://www.figma.com/file/ScRG1cRxpTuxvnHAt3KDQB/Poster---2?type=design&node-id=0%3A1&mode=design&t=qm0a0HahbnCgukwP-1
