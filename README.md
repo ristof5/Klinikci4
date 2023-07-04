@@ -27,31 +27,31 @@ https://youtu.be/tobWRyJKwQI
 
 ## Tahapan Pembuatan
 
-### Membuat Database
+### 1. Membuat Database
 Database yang dibuat bernama db_klinik yang terdiri dari beberapa table yang digunakan dalam program
 
-### Download Framework Codeigniter 4
+### 2. Download Framework Codeigniter 4
 Mendownloadnya bisa melalui web resmi atau via composer 
 Setelah mendownloadnya simpan file di folder htdocs lalu sesuaikan namanya
 ![download ci](https://github.com/ristof5/Klinikci4/assets/116700466/47a3c11c-078a-4a4f-afe5-01fccefa908d)
 
-### Membuat controller
+### 3. Membuat controller
 membuat controller berfungsi untuk mengkontrol fungsi dan database yang digunakan serta membuat fungsi antar penghubung dengan fungsi lain . sesuaikan saja dengan repository
 ![controller](https://github.com/ristof5/Klinikci4/assets/116700466/c7926a91-0c87-44ce-b502-4ed6161d7512)
 
-### Membuat Model
+### 4. Membuat Model
 model berperan penuh mengatur database yang digunakan.sesuaikan saja dengan repository
 ![models](https://github.com/ristof5/Klinikci4/assets/116700466/11192ae1-66c2-4354-a92e-461fe1dc11b3)
 
-### Membuat Views
+### 5. Membuat Views
 Membuat view atau tampilan web dimata pengguna.sesuaikan saja dengan repository
 ![views](https://github.com/ristof5/Klinikci4/assets/116700466/13ea6a31-bbcc-40fb-9254-c4ec032b942f)
 
-### Membuat Routes
+### 6. Membuat Routes
 Routes merupakan rute yang digunakan setiap fungsi.sesuaikan saja dengan repository
 ![routes](https://github.com/ristof5/Klinikci4/assets/116700466/51f0f5a9-6fd8-421a-90e4-090d3e6f14e3)
 
-### Tampilan utama 
+### 7. Tampilan utama 
 ![login admin](https://github.com/ristof5/Klinikci4/assets/116700466/91cd1855-1d8d-49f2-b269-4d69d13ba959)
 
 
