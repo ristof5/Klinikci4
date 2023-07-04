@@ -5,12 +5,12 @@ Website Klinik yang dibuat untuk memenuhi tugas akhir mata kuliah pemrograman we
 ## Anggota Kelompok
 
 Nama Kelompok:
-1. Fauzhan Qhof Pratama         312110484
-2. Sidiq Riffani                312110467
-3. Arya Syah Ramadan            312110149
-4. Rima Puji Lestari            312110517
-5. Muhammad Fajar Setiyanto     312110194
-6. Irgi Zaelani                 312110618
+1. Fauzhan Qhof Pratama         (312110484)
+2. Sidiq Riffani                (312110467)
+3. Arya Syah Ramadan            (312110149)
+4. Rima Puji Lestari            (312110517)
+5. Muhammad Fajar Setiyanto     (312110194)
+6. Irgi Zaelani                 (312110618)
 
 ## ERD
 ![erd klinik](https://github.com/ristof5/Klinikci4/assets/116700466/285b8721-b9f4-4acc-9e78-ab51a1ddbc51)
