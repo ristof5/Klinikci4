@@ -23,3 +23,5 @@ https://www.figma.com/file/ScRG1cRxpTuxvnHAt3KDQB/Poster---2?type=design&node-id
 https://youtu.be/tobWRyJKwQI
 
 ## Tahapan Pembuatan
+
+### Membuat Database
