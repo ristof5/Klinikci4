@@ -10,7 +10,7 @@ Nama Kelompok:
 3. Arya Syah Ramadan            (312110149)
 4. Rima Puji Lestari            (312110517)
 5. Muhammad Fajar Setiyanto     (312110194)
-6. Irgi Zaelani                 (312110618)
+6. Irgi Jaelani                 (312110618)
 
 ## ERD
 ![erd klinik](https://github.com/ristof5/Klinikci4/assets/116700466/285b8721-b9f4-4acc-9e78-ab51a1ddbc51)
