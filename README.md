@@ -6,7 +6,7 @@ Website Klinik yang dibuat untuk memenuhi tugas akhir mata kuliah pemrograman we
 
 Nama Kelompok:
 1. Fauzhan Qhof Pratama         (312110484)
-2. Sidiq Riffani                (312110467)
+2. Sidik Riffani                (312110467)
 3. Arya Syah Ramadan            (312110149)
 4. Rima Puji Lestari            (312110517)
 5. Muhammad Fajar Setiyanto     (312110194)
