@@ -26,9 +26,10 @@ https://www.figma.com/file/ScRG1cRxpTuxvnHAt3KDQB/Poster---2?type=design&node-id
 https://klnikcbr.my.id/
 
 ## Video Demo aplikasi
-
+yang pertama
 https://youtu.be/1JmNfL_jDiI
-
+yang kedua
+https://youtu.be/tobWRyJKwQI
 ## Tahapan Pembuatan
 
 ### 1. Membuat Database
