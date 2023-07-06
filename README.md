@@ -67,4 +67,4 @@ Routes merupakan rute yang digunakan setiap fungsi.sesuaikan saja dengan reposit
 
 ### 8. Tampilan halaman kasir
 
-![halaman admin](https://raw.githubusercontent.com/nama_pengguna/nama_repositori/master/img/gambar1.png)
+![halaman admin](img/gambar1.png)
