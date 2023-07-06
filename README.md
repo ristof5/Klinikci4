@@ -67,4 +67,4 @@ Routes merupakan rute yang digunakan setiap fungsi.sesuaikan saja dengan reposit
 
 ### 7. Tampilan halaman kasir
 
-![halaman admin](gambar1.png)
+![halaman admin](clone/Klinikci4/img/gambar1.png)
