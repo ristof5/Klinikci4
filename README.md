@@ -68,3 +68,11 @@ Routes merupakan rute yang digunakan setiap fungsi.sesuaikan saja dengan reposit
 ### 8. Tampilan halaman kasir
 
 ![halaman admin](img/gambar1.png)
+
+### 9. Tampilan detail pendaftaran
+
+![halaman admin](img/gambar2.png)
+
+### 10. Tampilan halaman customer
+
+![halaman admin](img/gambar3.png)
