@@ -64,3 +64,7 @@ Routes merupakan rute yang digunakan setiap fungsi.sesuaikan saja dengan reposit
 ### 7. Tampilan utama
 
 ![login admin](https://github.com/ristof5/Klinikci4/assets/116700466/91cd1855-1d8d-49f2-b269-4d69d13ba959)
+
+### 7. Tampilan halaman kasir
+
+![halaman admin](gambar1.png)
